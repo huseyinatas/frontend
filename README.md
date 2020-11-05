@@ -11,6 +11,12 @@
 <code>npm install</code>
 </pre>
 <p>Daha sonra <code>gulp</code> komutunu çalıştırarak projeyi ayağa kaldırın.</p>
+<small><b>Not: 'src/components' klasörü compile edilmez. Bu sayede component tabanlı çalışabilirsiniz.
+<pre>
+<code>@@include('components/componentName.html')</code>
+</pre>
+şeklinde componentlerinize ulaşabilirsiniz.
+</b></small>
 <h3>Paketler</h3>
 <pre>
 <code>
